@@ -11,7 +11,10 @@
 
 
 نسخ الرمز
-lconvert -i qt_en.qm -o qt_en.ts
+<code>lconvert -i qt_en.qm -o qt_en.ts</code>
+او 
+<code>lconvert -i qt_en.qm -o qt_en.XML</code>
+
 سيقوم هذا الأمر بإنشاء ملف .ts (qt_en.ts) من ملف .qm المترجم.
 
 تحرير ملف .ts: بمجرد حصولك على ملف .ts، يمكنك فتحه في محرر نصوص أو أداة ترجمة متخصصة مثل Qt Linguist. يوفر Qt Linguist واجهة سهلة الاستخدام لتحرير الترجمات.
